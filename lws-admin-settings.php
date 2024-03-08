@@ -33,3 +33,6 @@ require_once trailingslashit(LWS_ADMIN_SETTINGS_DIR) . 'packages/dashboard/page-
 require_once trailingslashit(LWS_ADMIN_SETTINGS_DIR) . 'packages/pages/page-pages.php';
 require_once trailingslashit(LWS_ADMIN_SETTINGS_DIR) . 'packages/posts/page-posts.php';
 require_once trailingslashit(LWS_ADMIN_SETTINGS_DIR) . 'packages/updates/page-updates.php';
+
+/****** Display Version on Frontend Footer */
+add_action("wp_footer", function() { echo "LWS Admin Settings Version: " . LWS_ADMIN_SETTINGS_VERSION; });
