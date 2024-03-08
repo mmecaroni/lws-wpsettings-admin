@@ -1,11 +1,16 @@
 <?php
 /********************************
  * Plugin Name: LWS Admin Settings
- * Plugin URI: https://github.com/mmecaroni/lws-wp-plugins
- * Description: Demo Admin Settings Plugin
+ * Plugin URI: https://github.com/mmecaroni/lws-admin-settings
+ * Description: A Admin Settings plugin by Liquid Studio Group
  * Version: 0.0.0
  * Author: Mario Mecaroni
- * Author URI: http://www.liquidstudiogroup.com/mario-mecaroni
+ * Author URI: http://www.liquidstudiogroup.com/team/mario-mecaroni
+ * License: MIT
+ * Text Domain: lws-admin-settings
+ * 
+ * GitHub Plugin URI: https://github.com/mmecaroni/lws-admin-settings
+ * GitHub Branch: master
  */
 
 /****** Get lost! */
