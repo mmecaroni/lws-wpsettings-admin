@@ -8,5 +8,13 @@ function lws_admin_settings_updates_page() {
   echo '<h1 class="wp-heading-inline">Updates</h1>';
   echo '<hr />';
   echo '<p>This is the updates content.</p>';
-  echo '</div>';
+  echo '<hr />';
+  echo '
+    <ul>
+      <li><strong>0.0.0</strong></li>
+      <li>- Initial release</li>
+      <li>- Pages update</li>
+      <li>- Testing updates</li>
+    </ul>
+  ';
 }
