@@ -8,7 +8,6 @@
  * Author URI: http://www.liquidstudiogroup.com/team/mario-mecaroni
  * License: MIT
  * Text Domain: lws-admin-settings
- * 
  * GitHub Plugin URI: https://github.com/mmecaroni/lws-admin-settings
  * GitHub Branch: master
  */
