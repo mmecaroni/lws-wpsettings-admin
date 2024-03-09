@@ -38,7 +38,7 @@ function lws_add_excerpt_to_pages_settings_init() {
         'lws_add_excerpt_to_pages_settings_section',
         'Page Excerpt Settings',
         'lws_add_excerpt_to_pages_settings_section_cb',
-        'lws-admin-settings'
+        'lws-wpsettings-admin'
     );
 
     // No need for add_settings_field as the field is hardcoded in the settings section
