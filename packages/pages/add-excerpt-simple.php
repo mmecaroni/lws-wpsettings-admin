@@ -14,7 +14,7 @@ function lws_add_excerpt_to_pages() {
             <form method="post" action="options.php">
                 <?php
                 settings_fields('lws_add_excerpt_to_pages_settings_group');
-                do_settings_sections('lws-admin-settings');
+                do_settings_sections('lws-wpsettings-admin');
                 ?>
 
                 <h2 class="">Enable Excerpts for Pages</h2>

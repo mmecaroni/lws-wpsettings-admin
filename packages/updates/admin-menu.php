@@ -1,10 +1,10 @@
 <?php
 
 add_submenu_page(
-  'lws_admin_settings_dashboard',
+  'lws_wpsettings_admin_dashboard',
   'Updates',
   'Updates',
   'manage_options',
-  'lws_admin_settings_updates',
-  'lws_admin_settings_updates_page'
+  'lws_wpsettings_admin_updates',
+  'lws_wpsettings_admin_updates_page'
 );

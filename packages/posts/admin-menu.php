@@ -1,10 +1,10 @@
 <?php
 
 add_submenu_page(
-  'lws_admin_settings_dashboard',
+  'lws_wpsettings_admin_dashboard',
   'Posts',
   'Posts',
   'manage_options',
-  'lws_admin_settings_posts',
-  'lws_admin_settings_posts_page'
+  'lws_wpsettings_admin_posts',
+  'lws_wpsettings_admin_posts_page'
 );

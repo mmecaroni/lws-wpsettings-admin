@@ -3,10 +3,10 @@
  * Pages Page
  */
 
-require_once trailingslashit(LWS_ADMIN_SETTINGS_DIR) . 'packages/pages/add-excerpt.php';
+require_once trailingslashit(LWS_WPSETTINGS_ADMIN_DIR) . 'packages/pages/add-excerpt.php';
 
 
-function lws_admin_settings_pages_page() {
+function lws_wpsettings_admin_pages_page() {
   echo '<div class="wrap">';
   echo '<h1 class="wp-heading-inline">Pages</h1>';
   echo '<hr />';

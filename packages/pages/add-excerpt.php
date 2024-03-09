@@ -22,7 +22,7 @@ function lws_add_excerpt_to_pages() {
     <form method="post" action="options.php">
       <?php
         settings_fields('lws_add_excerpt_to_pages_settings_group');
-        do_settings_sections('lws-admin-settings');
+        do_settings_sections('lws-wpsettings-admin');
         submit_button();
       ?>
     </form>
@@ -47,14 +47,14 @@ function lws_add_excerpt_to_pages_settings_init() {
     'lws_add_excerpt_to_pages_settings_section',
     'Page Excerpt Settings',
     'lws_add_excerpt_to_pages_settings_section_cb',
-    'lws-admin-settings'
+    'lws-wpsettings-admin'
   );
 
   add_settings_field(
     'lws_add_excerpt_to_pages_enable_field',
     'Enable Excerpts for Pages',
     'lws_add_excerpt_to_pages_enable_field_cb',
-    'lws-admin-settings',
+    'lws-wpsettings-admin',
     'lws_add_excerpt_to_pages_settings_section'
   );
 }
