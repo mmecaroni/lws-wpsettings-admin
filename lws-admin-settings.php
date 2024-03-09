@@ -10,6 +10,7 @@
  * Text Domain: lws-admin-settings
  * GitHub Plugin URI: mmecaroni/lws-admin-settings
  * GitHub Branch: master
+ * Release Asset: false
  */
 
 /****** Get lost! */
