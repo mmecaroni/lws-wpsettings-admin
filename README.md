@@ -1,2 +1,2 @@
-# lws-admin-settings
-A Admin Settings plugin by Liquid Studio Group
+# lws-wpsettings-admin
+A Wordpress Admin Settings plugin by Liquid Studio Group
